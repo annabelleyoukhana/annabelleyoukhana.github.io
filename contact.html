@@ -1,69 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Annabelle's Teaching Portfolio - Contact Me</title>
-    <link rel="stylesheet" href="starter.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annabelle's Teaching Portfolio - Contact Me</title>
+  <link rel="stylesheet" href="starter.css">
 </head>
 <body>
-    <!-- This is the header section for my page, in line with Semantic HTML -->
-    <header>
-        <h1>Contact Me</h1>
-    </header>
-<!--Navigational Menu-->
-<nav>
+  <!-- This is the header section for my page, in line with Semantic HTML -->
+  <header>
+    <h1>Contact Me</h1>
+  </header>
+
+  <!--Navigational Menu-->
+  <nav>
     <div class="container">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="teaching.html">Teaching Practice</a></li>
-            <li><a href="projects.html">Project Showcase</a></li>
-            <li><a href="workedsamples.html">Samples of Work</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a class="active" href="contact.html">Contact Me</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="teaching.html">Teaching Practice</a></li>
+        <li><a href="projects.html">Project Showcase</a></li>
+        <li><a href="workedsamples.html">Samples of Work</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a class="active" href="contact.html">Contact Me</a></li>
+      </ul>
     </div>  
-</nav>
+  </nav>
+
   <!-- This is the main content area for my page, in line with Semantic HTML -->
-<main>
- <!-- This is the section for the Contact Form  -->
+  <main>
+    <!-- This is the section for the Contact Form -->
     <section class="section">
       <div class="container">
         <h2>Get in touch</h2>
-        <form id="contact-form" action="https://formsubmit.co/S00344872@myacu.edu.au" method="post" autocomplete="on">
+        <form id="contact-form" action="https://formsubmit.co/faab8367c3deb9dff78739eef74dc5d8" method="post" autocomplete="on">
           <fieldset>
-            <legend>Your details</legend> 
-          <label for="name">Full name</label>
-          <input id="name" name="name" type="text" placeholder="Annabelle Youkhana"
-                 required minlength="2" autocomplete="name" aria-describedby="name-help">
-          <small id="name-help" class="help">Please enter your full name.</small>
-        </div>
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="S00344872@myacu.edu.au" required autocomplete="email" inputmode="email" aria-describedby="email-help">
-          <small id="email-help" class="help">We’ll only use this to reply to you.</small>
-        </div>
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" placeholder="How’s it going—anything I can help with?" required minlength="8" aria-describedby="message-help"></textarea>
-          <small id="message-help" class="help">At least 8 characters.</small>
-        </div>
-        <!-- Honeypot anti-spam (FormSubmit expects _honey) -->
-        <input type="text" name="_honey" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;">
-       <!-- button tag used for input, in line with Semantic HTML-->
-                        <button type="submit">Send</button>
-                    </fieldset>
-                </form>
-                <!-- inline status message for once form submitted -->
-                <p id="form-status" role="status" aria-live="polite" hidden></p>
-            </div>
-        </section>
-    </main>
-    <!-- This is the footer section for my page, in line with Semantic HTML -->
-    <footer>
-        <div class="container">
-            <p> &copy; 2025 Annabelle Youkhana. All rights reserved.</p>
-        </div>
-    </footer>
+            <legend>Your details</legend>
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" placeholder="Annabelle Youkhana"
+                   required minlength="2" autocomplete="name" aria-describedby="name-help">
+            <small id="name-help" class="help">Please enter your full name.</small>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="annabellyoukhana123@gmail.com"
+                   required autocomplete="email" inputmode="email" aria-describedby="email-help">
+            <small id="email-help" class="help">We’ll only use this to reply to you.</small>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6"
+                      placeholder="How’s it going—anything I can help with?"
+                      required minlength="8" aria-describedby="message-help"></textarea>
+            <small id="message-help" class="help">At least 8 characters.</small>
+
+            <!-- Honeypot anti-spam (FormSubmit expects _honey) -->
+            <input type="text" name="_honey" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;">
+
+            <!-- button tag used for input, in line with Semantic HTML-->
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+
+        <!-- inline status message for once form submitted -->
+        <p id="form-status" role="status" aria-live="polite" hidden></p>
+      </div>
+    </section>
+  </main>
+  <!-- This is the footer section for my page, in line with Semantic HTML -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Annabelle Youkhana. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
